@@ -1,0 +1,7 @@
+C:\Users\lboxler\Documents\Visual Studio 2010\Projects\Rhino\Non_Imaging\Non_Imaging\bin\Non_Imaging.dll
+C:\Users\lboxler\Documents\Visual Studio 2010\Projects\Rhino\Non_Imaging\Non_Imaging\bin\Non_Imaging.pdb
+C:\Users\lboxler\Documents\Visual Studio 2010\Projects\Rhino\Non_Imaging\Non_Imaging\bin\Non_Imaging_Optics.dll
+C:\Users\lboxler\Documents\Visual Studio 2010\Projects\Rhino\Non_Imaging\Non_Imaging\bin\Non_Imaging_Optics.pdb
+C:\Users\lboxler\Documents\Visual Studio 2010\Projects\Rhino\Non_Imaging\Non_Imaging\obj\Debug64\Non_Imaging.csprojResolveAssemblyReference.cache
+C:\Users\lboxler\Documents\Visual Studio 2010\Projects\Rhino\Non_Imaging\Non_Imaging\obj\Debug64\Non_Imaging.dll
+C:\Users\lboxler\Documents\Visual Studio 2010\Projects\Rhino\Non_Imaging\Non_Imaging\obj\Debug64\Non_Imaging.pdb
