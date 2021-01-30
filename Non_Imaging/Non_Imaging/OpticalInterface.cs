@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Non_Imaging
+﻿namespace Non_Imaging
 {
     public class OpticalInterface
     {
@@ -11,6 +6,7 @@ namespace Non_Imaging
         public double transmission { get; set; }
         public double n1 { get; set; }
         public double n2 { get; set; }
+        public double abbeNumber { get; set; }
 
         public OpticalInterface()
         {
@@ -43,6 +39,15 @@ namespace Non_Imaging
             n2 = index2;
             reflectivity = Reflection;
             transmission = Transmission;
+        }
+
+        public OpticalInterface(double index1, double index2, double abbe)
+        {
+            n1 = index1;
+            n2 = index2;
+            reflectivity = 0;
+            transmission = 1;
+            abbeNumber = abbe;
         }
 
     }

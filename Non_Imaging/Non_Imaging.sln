@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Non_Imaging", "Non_Imaging\Non_Imaging.csproj", "{4D3F1B83-C33E-4E1E-A49D-6EC699737A6B}"
 EndProject
 Global
@@ -11,10 +13,13 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4D3F1B83-C33E-4E1E-A49D-6EC699737A6B}.Debug64|Any CPU.ActiveCfg = Debug64|Any CPU
 		{4D3F1B83-C33E-4E1E-A49D-6EC699737A6B}.Debug64|Any CPU.Build.0 = Debug64|Any CPU
-		{4D3F1B83-C33E-4E1E-A49D-6EC699737A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4D3F1B83-C33E-4E1E-A49D-6EC699737A6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D3F1B83-C33E-4E1E-A49D-6EC699737A6B}.Release|Any CPU.ActiveCfg = Debug64|Any CPU
+		{4D3F1B83-C33E-4E1E-A49D-6EC699737A6B}.Release|Any CPU.Build.0 = Debug64|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5AE7DC7-74AE-4A74-BE88-66686469EF17}
 	EndGlobalSection
 EndGlobal

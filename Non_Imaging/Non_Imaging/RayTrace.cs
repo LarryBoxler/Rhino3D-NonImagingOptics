@@ -119,12 +119,12 @@ namespace Non_Imaging
 
 
                 if (oInterface.n1 == 0)
-                    traceray.raypath.Add(traceray.raypath[traceray.raypath.Count - 1]);
+                    traceray.Raypath.Add(traceray.Raypath[traceray.Raypath.Count - 1]);
                 else
-                    traceray.raypath.Add(traceray.raypath[traceray.raypath.Count - 1] + (30 * traceray.direction));
+                    traceray.Raypath.Add(traceray.Raypath[traceray.Raypath.Count - 1] + (30 * traceray.Direction));
 
 
-                doc.Objects.AddCurve(new PolylineCurve(traceray.raypath));
+                doc.Objects.AddCurve(new PolylineCurve(traceray.Raypath));
 
                 doc.Views.Redraw();
 

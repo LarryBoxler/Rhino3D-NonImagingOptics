@@ -5,3 +5,11 @@ C:\Users\lboxler\Documents\Visual Studio 2010\Projects\Rhino\Non_Imaging\Non_Ima
 C:\Users\lboxler\Documents\Visual Studio 2010\Projects\Rhino\Non_Imaging\Non_Imaging\obj\Debug64\Non_Imaging.csprojResolveAssemblyReference.cache
 C:\Users\lboxler\Documents\Visual Studio 2010\Projects\Rhino\Non_Imaging\Non_Imaging\obj\Debug64\Non_Imaging.dll
 C:\Users\lboxler\Documents\Visual Studio 2010\Projects\Rhino\Non_Imaging\Non_Imaging\obj\Debug64\Non_Imaging.pdb
+C:\Users\tucso\Source\Repos\Rhino3D-NonImagingOptics\Non_Imaging\Non_Imaging\obj\Debug64\Non_Imaging.csprojAssemblyReference.cache
+C:\Users\tucso\Source\Repos\Rhino3D-NonImagingOptics\Non_Imaging\Non_Imaging\obj\Debug64\Non_Imaging.csproj.CoreCompileInputs.cache
+C:\Users\tucso\Source\Repos\Rhino3D-NonImagingOptics\Non_Imaging\Non_Imaging\obj\Debug64\Non_Imaging.dll
+C:\Users\tucso\Source\Repos\Rhino3D-NonImagingOptics\Non_Imaging\Non_Imaging\obj\Debug64\Non_Imaging.pdb
+C:\Users\tucso\source\repos\Rhino3D-NonImagingOptics\Non_Imaging\Non_Imaging\bin\Non_Imaging.dll
+C:\Users\tucso\source\repos\Rhino3D-NonImagingOptics\Non_Imaging\Non_Imaging\bin\Non_Imaging.pdb
+C:\Users\tucso\source\repos\Rhino3D-NonImagingOptics\Non_Imaging\Non_Imaging\bin\Non_Imaging_Optics.pdb
+C:\Users\tucso\source\repos\Rhino3D-NonImagingOptics\Non_Imaging\Non_Imaging\obj\Debug64\Non_Imaging.csproj.CopyComplete

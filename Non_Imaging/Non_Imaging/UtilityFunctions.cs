@@ -22,7 +22,6 @@ namespace Non_Imaging
 
             Non_Imaging_Optics.NI2dPoint ptF = new NI2dPoint(0,0);
             Vector3d scalar = point - localPlane.Origin;
-            Point3d localPoint = point;
             ptF.x1 = scalar * localPlane.XAxis;
             ptF.x2 = scalar * localPlane.YAxis;
 

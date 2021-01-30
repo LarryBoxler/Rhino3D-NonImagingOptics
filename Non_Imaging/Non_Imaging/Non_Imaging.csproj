@@ -10,9 +10,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Non_Imaging</RootNamespace>
     <AssemblyName>Non_Imaging</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug64|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
@@ -30,6 +31,11 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'junk|AnyCPU'">
+    <OutputPath>bin\junk\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Non_Imaging_Optics">
@@ -42,32 +48,33 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="RhinoCommon">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files\Rhinoceros 5.0 (64-bit)\System\rhinocommon.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Rhino 6\System\RhinoCommon.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CartesianOvalDiverge.cs" />
-    <Compile Include="CartesianOvalParallel.cs" />
-    <Compile Include="ConvergingOvalPtPt.cs" />
+    <Compile Include="Non Imaging Shapes\CartesianOvalDiverge.cs" />
+    <Compile Include="Non Imaging Shapes\CartesianOvalParallel.cs" />
+    <Compile Include="Non Imaging Shapes\ConvergingOvalPtPt.cs" />
     <Compile Include="CustomConduit.cs" />
-    <Compile Include="DivergingOvalPtPt.cs" />
-    <Compile Include="Ellipse.cs" />
-    <Compile Include="Hyperbola.cs" />
-    <Compile Include="TiltedParabola.cs" />
-    <Compile Include="UnwindingMacroParabola.cs" />
-    <Compile Include="WindingMacroParabola.cs" />
-    <Compile Include="WindingMacroEllipse.cs" />
-    <Compile Include="UnwindingMacroEllipse.cs" />
+    <Compile Include="Non Imaging Shapes\DivergingOvalPtPt.cs" />
+    <Compile Include="Non Imaging Shapes\Ellipse.cs" />
+    <Compile Include="Non Imaging Shapes\Hyperbola.cs" />
+    <Compile Include="NISurfaceTrace.cs" />
+    <Compile Include="Non Imaging Shapes\TiltedParabola.cs" />
+    <Compile Include="Non Imaging Shapes\UnwindingMacroParabola.cs" />
+    <Compile Include="Non Imaging Shapes\WindingMacroParabola.cs" />
+    <Compile Include="Non Imaging Shapes\WindingMacroEllipse.cs" />
+    <Compile Include="Non Imaging Shapes\UnwindingMacroEllipse.cs" />
     <Compile Include="RayTrace.cs" />
     <Compile Include="SetOpticalInterface.cs" />
     <Compile Include="RayFan.cs" />
-    <Compile Include="UnwindingInvolute.cs" />
-    <Compile Include="WindingInvolute.cs" />
-    <Compile Include="PlaneWaveOvalPt.cs" />
-    <Compile Include="ReflectingOvalPtPt.cs" />
+    <Compile Include="Non Imaging Shapes\UnwindingInvolute.cs" />
+    <Compile Include="Non Imaging Shapes\WindingInvolute.cs" />
+    <Compile Include="Non Imaging Shapes\PlaneWaveOvalPt.cs" />
+    <Compile Include="Non Imaging Shapes\ReflectingOvalPtPt.cs" />
     <Compile Include="Ray.cs" />
-    <Compile Include="CartesianOvalConverge.cs" />
+    <Compile Include="Non Imaging Shapes\CartesianOvalConverge.cs" />
     <Compile Include="NonImagingPlugIn.cs" />
     <Compile Include="OpticalInterface.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -93,5 +100,6 @@ Erase "$(TargetPath)"</PostBuildEvent>
     <StartArguments>
     </StartArguments>
     <StartAction>Program</StartAction>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
 </Project>
