@@ -9,4 +9,6 @@ The plugin adds commands to Rhino that allow for the construction of the Non Ima
 
 The intent for this plugin is to provide a quick sandbox for developing a non-imaging optical curve/surface shape to produce a desired output.  
 
+To install the plugin from this repository copy the NonImaging.rhp and the NonImagingOptic.dll file from the bin directory into a local folder and install the plugin with the Rhino Plugin Manager.  
+
 Future versions of the plugin are intended to provided some capability for estimating performance of the system.  
